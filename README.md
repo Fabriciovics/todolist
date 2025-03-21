@@ -38,7 +38,6 @@ Este projeto é uma API REST simples para gerenciar uma lista de tarefas (ToDo L
 ## Endpoints da API
 
 * `GET /todos`: Lista todas as tarefas.
-* `GET /todos`: Busca uma tarefa pelo ID.
 * `POST /todos`: Cria uma nova tarefa.
 * `PUT /todos`: Atualiza uma tarefa existente.
 * `DELETE /todos/{id}`: Remove uma tarefa.
