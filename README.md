@@ -43,24 +43,4 @@ Este projeto é uma API REST simples para gerenciar uma lista de tarefas (ToDo L
 * `PUT /todos`: Atualiza uma tarefa existente.
 * `DELETE /todos/{id}`: Remove uma tarefa.
 
-## Estrutura do projeto
 
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   ├── com/
-│   │   │   │   ├── todolist/
-│   │   │   │   │   ├── controller/
-│   │   │   │   │   │   └── TodoController.java
-│   │   │   │   │   ├── service/
-│   │   │   │   │   │   └── TodoService.java
-│   │   │   │   │   ├── repository/
-│   │   │   │   │   │   └── TodoRepository.java
-│   │   │   │   │   ├── model/
-│   │   │   │   │   │   └── Todo.java
-│   │   │   │   │   └── ToDoListApiApplication.java
-│   │   └── resources/
-│   │       └── application.properties
-├── Dockerfile
-├── docker-compose.yml
-└── README.md
